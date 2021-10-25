@@ -9,7 +9,7 @@ pipeline {
 		}
 		stage("Unit test") {
 			steps {
-				sh "python practice.py"
+				sh "python3 practice.py"
 			}
 		}
 	}
